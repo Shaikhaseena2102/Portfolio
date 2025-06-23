@@ -7,3 +7,4 @@ Features:
 
 1. Visually appealing
 2. Interactive
+3. Dynamic
