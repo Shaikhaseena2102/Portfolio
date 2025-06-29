@@ -43,7 +43,7 @@ nav a {
 
 nav a:hover {
   transform: translateY(-4px) scale(1.05);
-  box-shadow: 0 6px 20px rgba(249,168,212,0.4);
+  box-shadow: 0 10px 20px rgba(236, 225, 110, 0.4);
 }
 
 
@@ -81,7 +81,7 @@ p:hover {
   box-shadow: 0 8px 25px rgba(196,181,253,0.3);
 }
 
-
+/* 🔹 Buttons (if you add later) */
 button {
   background: linear-gradient(135deg, #f9a8d4, #c4b5fd);
   border: none;
@@ -96,6 +96,21 @@ button:hover {
   box-shadow: 0 5px 15px rgba(249,168,212,0.4);
 }
 
+/* 🔹 Smooth scroll */
 html {
   scroll-behavior: smooth;
+}
+#mts{
+    width: 100%;
+}
+#ts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+#ts h4 {
+  grid-column: span 3;
+  margin-top: 20px;
+  color: #f9a8d4;
 }
